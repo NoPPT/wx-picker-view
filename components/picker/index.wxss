@@ -1,0 +1,57 @@
+@import './default-item.wxss';
+
+.action-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+  z-index: 1000;
+}
+
+.list-container {
+  position: absolute;
+  bottom: -586rpx;
+  width: 100vw;
+  height: 586rpx;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  z-index: 1010;
+}
+
+.tool-bar {
+  width: 100vw;
+  height: 90rpx;
+  border-bottom: 1rpx solid #d2d2d2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.cancel-text {
+  margin-left: 48rpx;
+  font-size: 32rpx;
+  color: #000;
+}
+
+.all-text {
+  font-size: 32rpx;
+  color: #1ba1ff;
+}
+
+.ok-text {
+  margin-right: 48rpx;
+}
+
+.scroll {
+  flex: 1;
+  height: 496rpx;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}

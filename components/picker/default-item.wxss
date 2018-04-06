@@ -1,0 +1,16 @@
+.default-item-container {
+  flex: 1;
+  height: 100%;
+  margin-left: 48rpx;
+  margin-right: 48rpx;
+  border-radius: 16rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.defaulte-item-text {
+  font-size: 40rpx;
+  font-weight: bold;
+}

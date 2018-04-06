@@ -1,0 +1,3 @@
+<view id='into-{{key}}' class="item" bindtap='_onTapPickerItem'>
+  <slot></slot>
+</view>

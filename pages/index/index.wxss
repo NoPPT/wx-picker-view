@@ -1,0 +1,25 @@
+/**index.wxss**/
+
+.center-line {
+  flex: 1;
+  height: 1rpx;
+  background-color: #d2d2d2;
+}
+
+.disable-text {
+  font-size: 32rpx;
+  color: #d2d2d2;
+  margin-left: 15rpx;
+  margin-right: 15rpx;
+}
+
+
+.cancel-style {
+  color: #d2d2d2;
+  font-weight: bold;
+}
+
+.ok-style {
+  color: #ff5e00;
+  font-weight: bold;
+}

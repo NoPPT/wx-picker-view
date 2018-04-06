@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "picker": "/components/picker/index",
+    "picker-item": "/components/picker/item"
+  }
+}

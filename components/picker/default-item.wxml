@@ -1,0 +1,5 @@
+<template name='default-item'>
+  <view class='default-item-container' style="background-color: {{choose ? '#2089ff' : '#fff'}};">
+    <text class='defaulte-item-text' style="color: {{choose ? '#fff' : '#333'}}">{{ title }}</text>
+  </view>
+</template>

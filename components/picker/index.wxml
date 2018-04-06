@@ -1,0 +1,19 @@
+<import src='./default-item.wxml' />
+
+<view wx:if="{{show}}" class="action-container" animation="{{bgAnimation}}">
+  <view class="list-container" animation="{{animation}}">
+    <view class="tool-bar">
+      <text class='cancel-text' bindtap='onTapClear'>取消</text>
+      <text wx:if="{{multiple}}" class='all-text' bindtap='onTapAll'>全选</text>
+      <text class='ok-text all-text' bindtap='onTapOk'>确认</text>
+    </view>
+    <scroll-view wx:if="{{!custom}}" class='scroll' style="height: {{containerHeight}};" scroll-y scroll-into-view="{{defaultView}}">
+      <item id="{{'into-' + index}}" wx:for="{{items}}" wx:key="{{item.name}}" key="{{index}}" bindselect="onTapPickerItem">
+        <template is="default-item" data="{{ choose: item.choose, title: item.name}}" />
+      </item>
+    </scroll-view>
+    <scroll-view wx:if="{{custom}}" class='scroll' style="height: {{containerHeight}};" scroll-y scroll-into-view="{{defaultView}}">
+      <slot></slot>
+    </scroll-view>
+  </view>
+</view>
