@@ -1,4 +1,4 @@
-## wx-picker-view
+# wx-picker-view
 
 小程序自定义 `picker-view`
 
