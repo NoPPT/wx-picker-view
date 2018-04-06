@@ -1,6 +1,6 @@
 <!--index.wxml-->
 <view class="container">
-  <button bindtap='onTapShowActionSheet'>显示ActionSheet</button>
+  <button bindtap='onTapShowActionSheet'>显示PickerView</button>
   <picker show="{{visible}}" bindchange="onChangeSelect" items="{{items}}" current="{{current}}" height="800rpx" multiple>
      <picker-item id="into-{{index}}" wx:for="{{items}}" wx:key="{{index}}" key="{{index}}" cancel-style='cancel-style' ok-style='ok-style'>
       <block>

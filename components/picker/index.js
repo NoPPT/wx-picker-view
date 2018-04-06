@@ -34,6 +34,7 @@ Component({
       observer: '_onChangeItems'
     },
     current: {
+      // 单选时传入 `number` 或者 `string` ，多选时传入 `Array`
       type: null,
       value: undefined,
     },
