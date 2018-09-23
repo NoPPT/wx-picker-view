@@ -2,8 +2,8 @@
 
 小程序自定义 `picker-view`
 
-![](http://p4wb4s2l1.bkt.clouddn.com/image/blog/2/8.gif-gif)
-![](http://p4wb4s2l1.bkt.clouddn.com/image/blog/2/7.gif-gif)
+![](http://qiniu.0x0803.top/image/blog/2/8.gif-gif)
+![](http://qiniu.0x0803.top/image/blog/2/7.gif-gif)
 
 ## 使用方式
 
@@ -16,5 +16,5 @@
 ## License
 [MIT](./LICENSE)
 
-[0]: http://0x0803.com/2018/04/01/weapp-custom-component-practices/
+[0]: http://0x0803.top/2018/04/01/weapp-custom-component-practices/
 [1]: https://github.com/NoPPT/wx-picker-view/tree/master/pages/index
